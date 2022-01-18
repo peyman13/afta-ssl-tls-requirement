@@ -7,9 +7,9 @@ x509_extensions = v3_req
 C = IR
 ST = VA
 L = Tehran
-O = Pishkhan Co
+O = peyman khodabandeh Co
 OU = Develop
-CN = www.epishkhan.ir
+CN = www.YOURDOMAIN.ir
 [v3_req]
 keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
 #extendedKeyUsage = serverAuth
@@ -18,6 +18,6 @@ extendedKeyUsage        = clientAuth,serverAuth
 #keyUsage               = critical,keyCertSign,cRLSign
 subjectKeyIdentifier    = hash
 [alt_names]
-DNS.1 = www.epishkhan.ir
+DNS.1 = www.YOURDOMAIN.ir
 DNS.2 = company.com
 DNS.3 = company.net
