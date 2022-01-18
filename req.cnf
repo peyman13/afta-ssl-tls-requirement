@@ -1,0 +1,23 @@
+[req]
+distinguished_name = req_distinguished_name
+#req_extensions = v3_req
+prompt = no
+x509_extensions = v3_req
+[req_distinguished_name]
+C = IR
+ST = VA
+L = Tehran
+O = Pishkhan Co
+OU = Develop
+CN = www.epishkhan.ir
+[v3_req]
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+#extendedKeyUsage = serverAuth
+basicConstraints        = critical,CA:true,pathlen:0
+extendedKeyUsage        = clientAuth,serverAuth
+#keyUsage               = critical,keyCertSign,cRLSign
+subjectKeyIdentifier    = hash
+[alt_names]
+DNS.1 = www.epishkhan.ir
+DNS.2 = company.com
+DNS.3 = company.net
