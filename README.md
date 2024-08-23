@@ -1,5 +1,7 @@
 # afta-ssl-tls-requirement
-SSL Configuration ISO-15408 and Afta lab
+SSL Configuration based on ISO-15408 and web protection profile Afta labs
+instance on apache on redhat OS
+
 
 ```sh
 mv ssl.conf /etc/http/conf.d/ssl.conf
